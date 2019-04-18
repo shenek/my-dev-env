@@ -25,7 +25,7 @@ setup(
     ],
     extras_require={
         "node": ["nodeenv"],
-        "django": ["my-dev-env[node]", "django-extensions"],
+        "django": ["my-dev-env[node]", "django-extensions", "django-debug-toolbar"],
         "release": ["twine"],
     },
     zip_safe=False,
