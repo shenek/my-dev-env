@@ -9,7 +9,7 @@ used for development in python.\
 
 setup(
     name="my-dev-env",
-    version="0.2",
+    version="0.3",
     author="Stepan Henek",
     author_email="stepan@henek.name",
     url="https://github.com/shenek/my-dev-env",
