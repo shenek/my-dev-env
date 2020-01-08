@@ -17,7 +17,7 @@ setup(
     description=DESCRIPTION,
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    install_requires=["black", "python-language-server", "ipython", "ipdb", "mypy"],
+    install_requires=["black", "python-language-server", "ipython", "ipdb", "mypy", "isort"],
     extras_require={
         "node": ["nodeenv"],
         "django": ["my-dev-env[node]", "django-extensions", "django-debug-toolbar"],
