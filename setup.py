@@ -27,6 +27,7 @@ setup(
         "python-language-server",
         "pre-commit",
         "bandit",
+        "safety",
     ],
     extras_require={
         "node": ["nodeenv"],
