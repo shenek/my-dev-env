@@ -25,6 +25,7 @@ setup(
         "isort",
         "mypy",
         "python-language-server",
+        "pre-commit",
     ],
     extras_require={
         "node": ["nodeenv"],
