@@ -26,6 +26,7 @@ setup(
         "mypy",
         "python-language-server",
         "pre-commit",
+        "bandit",
     ],
     extras_require={
         "node": ["nodeenv"],
