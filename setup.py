@@ -28,6 +28,7 @@ setup(
         "pre-commit",
         "bandit",
         "safety",
+        "neovim",
     ],
     extras_require={
         "node": ["nodeenv"],
