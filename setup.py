@@ -24,7 +24,7 @@ setup(
         "ipdb",
         "isort",
         "mypy",
-        "python-language-server",
+        "python-lsp-server[all]",
         "pre-commit",
         "bandit",
         "safety",
