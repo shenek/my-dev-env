@@ -38,7 +38,7 @@ setup(
             "django-debug-toolbar",
             "django-stubs",
         ],
-        "release": ["twine"],
+        "release": ["twine", "build"],
     },
     zip_safe=False,
     keywords="virtualenv dev",
